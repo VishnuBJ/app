@@ -1,0 +1,10 @@
+# wordpress/values.yaml.tmpl
+mysql:
+  auth:
+    rootPassword: "${root_password}"
+    database: "${database}"
+
+wordpressUsername: "${wordpress_username}"
+wordpressPassword: "${wordpress_password}"
+service:
+  type: "${service_type}"
